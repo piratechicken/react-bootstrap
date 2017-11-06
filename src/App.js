@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Button title='First' />
+        <Button title='Google' href='https://www.google.com/' />
         <Button title='Second' variation='primary' />
         <Button title='Third' variation='success' />
       </div>
