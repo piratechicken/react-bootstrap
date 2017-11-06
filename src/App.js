@@ -9,8 +9,8 @@ class App extends Component {
     return (
       <div className="App">
         <Button title='First' />
-        <Button title='Second' />
-        <Button title='Third' />
+        <Button title='Second' variation='primary' />
+        <Button title='Third' variation='success' />
       </div>
     );
   }

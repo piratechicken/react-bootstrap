@@ -1,9 +1,10 @@
 import React from 'react'
 
 const Button = ({
-  title
+  title,
+  variation = 'dark'
 }) => (
-  <button className='btn btn-dark'>{ title }</button>
+  <button className={ `btn btn-${variation}` }>{ title }</button>
 )
 
 export default Button
