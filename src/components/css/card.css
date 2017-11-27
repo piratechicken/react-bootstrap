@@ -1,0 +1,9 @@
+.card {
+  margin: auto;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.card .card-title {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
