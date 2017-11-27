@@ -6,6 +6,7 @@ import Button from './components/Button'
 import Alert from './components/Alert'
 import { Card, CardItem } from './components/Card'
 import { Nav, NavItem } from './components/Nav'
+import { Form, FormItem } from './components/Form'
 
 class App extends Component {
   render() {
@@ -35,6 +36,31 @@ class App extends Component {
             <CardItem subClass='title'>Title</CardItem>
             <CardItem subClass='text'>...T E X T...</CardItem>
           </Card>
+          <Form>
+            <FormItem 
+              type='email'
+              labelText='Enter your email:'  
+              id='form email'
+              placeHolder='email@email.com'
+            />
+            <FormItem 
+              type='password'
+              labelText='Password:'  
+              id='form passford'
+              placeHolder='password'
+            />
+            <FormItem 
+              type='text' 
+              id='form text'
+              placeHolder='there is no label for this one'
+            />
+            <FormItem 
+              labelText='Text Area:'
+              type='textarea' 
+              id='form text area'
+              placeHolder='this is a text area'
+            />
+          </Form>
         </div>
       </div>
     );

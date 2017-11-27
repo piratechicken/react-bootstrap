@@ -14,6 +14,9 @@
 1. Add components for Alert
 2. Add components for Card
 3. Add components for Forms and Fields
+4. Add component for Progress
+5. Add component for Button Group, making use of the existing Button component
+6. Add components for Container, Row, and Column
 
 ## Info
 
