@@ -11,7 +11,7 @@ const Alert = ({
   }
 
   return (
-    <div className={className}>
+    <div className={className} role='alert'>
       { children }
     </div>
   )

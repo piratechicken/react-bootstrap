@@ -32,7 +32,7 @@ const Progress = ({ progress }) => {
   }
 
   return (
-    <div className='progress'>
+    <div className='progressbar'>
       <div><p>You have completed { completion } of 4 steps.</p></div>
       <div className='bar'>
         <div className={`segment ${className1}`} />

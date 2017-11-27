@@ -5,6 +5,7 @@ import './bootstrap-4.0.0-beta.2-dist/css/bootstrap.css'
 import Button from './components/Button'
 import Alert from './components/Alert'
 import Progress from './components/Progress'
+import BootstrapProgress from './components/BootstrapProgress'
 import { Card, CardItem } from './components/Card'
 import { Nav, NavItem } from './components/Nav'
 import { Form, FormItem } from './components/Form'
@@ -25,6 +26,7 @@ class App extends Component {
             <NavItem>Third</NavItem>
           </Nav>
         </div>
+          <BootstrapProgress progress={ 25 } />
           <Progress progress={ 2 } />
           <Alert subClass='primary'>
             OMFG!!!
